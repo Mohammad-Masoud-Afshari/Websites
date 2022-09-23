@@ -1,0 +1,137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@font-face
+{
+    font-family:IRANSans;
+    src: url("./fonts/FontsFree-Net-ir_sans.ttf") format("ttf");
+}
+*
+{
+    font-family:IRANSans;
+}
+.slice
+{
+    text-align: right;
+    margin: -15px 0;
+}
+h4
+{
+    text-decoration: underline red;
+}
+
+@media (max-width: 500px) 
+{
+    .headimg
+    {
+        margin-top: 60px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+    }
+}
+@media (max-width: 850px) and ( min-width: 500px) 
+{
+    .headimg
+    {
+        margin-top: 60px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+    }
+}
+@media (min-width: 850px) and ( max-width: 1400px)
+{
+    .headimg
+    {
+        margin-top: 60px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+    }
+}
+@media ( min-width: 1400px)
+{
+    .headimg
+    {
+        margin-top: 60px;
+        width: 100%;
+        height: 650px;
+        display: flex;
+    }
+}
+footer
+{
+    margin-top: 10px;
+    background-color: rgb(83 ,83 ,83);text-align: right;
+    color: white;
+    padding-top: 40px;
+}
+.card
+{
+    box-shadow: 2px 1px rgb(167 ,167 ,167);
+}
+.imgbox
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 160px;
+    margin-left: 60px;
+}
+.imgbox1
+{
+    height: 170px;
+}
+.card-btn-p
+{
+    margin-top: 5px;
+    margin-left: 80px;
+    border-radius: 7px;
+    background: rgb(214, 26, 26);
+    color: rgb(255, 255, 255);
+}
+.card-btn-p2
+{
+    margin-top: 5px;
+    margin-left: 80px;
+    border-radius: 7px;
+    background: rgb(83 ,83 ,83);
+    color: rgb(255, 255, 255);
+}
+.star-btn
+{
+    margin-top: 5px;
+    color: rgb(255, 215, 0);
+}
+.star-btn2
+{
+    margin-top: 5px;
+    color: rgb(83, 83, 83);
+}
+.card-title
+{
+    font-size: 15px;
+}
+.fav
+{
+    padding: 8px;
+    overflow: hidden;
+    width: 35px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.973);
+    color: rgb(255, 255, 255);
+}
+.fav:hover
+{
+    transition: all 0.5s;
+    padding: 8px;
+    width: 70px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.973);
+    color: rgb(255, 255, 255);
+}
+.card-text
+{
+    direction: rtl;
+    color: lightslategray;
+}
